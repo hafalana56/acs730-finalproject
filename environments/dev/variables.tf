@@ -42,7 +42,7 @@ variable "web_subnet_cidr_private" {
 variable "lb_subnet_cidr_public" {
   type        = list(any)
   description = "Private subnet CIDR blocks list"
-  default     = ["10.100.4.0/24", "10.100.5.0/24", "10.100.0/24"]
+  default     = ["10.100.4.0/24", "10.100.5.0/24", "10.100.6.0/24"]
 }
 
 variable "subnet_name_prefix" {
